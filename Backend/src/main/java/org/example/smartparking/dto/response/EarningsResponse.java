@@ -1,0 +1,17 @@
+package org.example.smartparking.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class EarningsResponse {
+    private Double totalEarnings;
+    private Double thisMonthEarnings;
+    private Double todayEarnings;
+    private Double availableForWithdrawal;
+}

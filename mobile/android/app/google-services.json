@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "563090848017",
+    "project_id": "parkingo-94f9e",
+    "storage_bucket": "parkingo-94f9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563090848017:android:3b9c9c3dd654dfb7a234b0",
+        "android_client_info": {
+          "package_name": "app.parkingo.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563090848017-no0qgb74d33c694h3mhv8sal1sdhp9ao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.parkingo.mobile",
+            "certificate_hash": "0e7a34cecbd7ed478176ed4412cc974b633ac19e"
+          }
+        },
+        {
+          "client_id": "563090848017-3ti9cp2oqu7vi7v5mmov4q9g3gl80j0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYAarvXgk-mGWrQTGA64bRO37MsJeDHX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563090848017-3ti9cp2oqu7vi7v5mmov4q9g3gl80j0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

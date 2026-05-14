@@ -1,0 +1,2 @@
+web: java -Dserver.port=$PORT -Dspring.jpa.open-in-view=false -jar target/*.jar
+

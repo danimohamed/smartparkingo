@@ -1,0 +1,73 @@
+/*
+ * Mapbox GL overrides
+ * These must load AFTER Tailwind CSS to override preflight resets.
+ * They are NOT processed by @tailwindcss/postcss.
+ */
+
+.mapboxgl-map {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+.mapboxgl-canvas-container {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+.mapboxgl-canvas {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.mapboxgl-canvas:focus {
+    outline: none !important;
+}
+
+.mapboxgl-map img {
+    max-width: none !important;
+}
+
+.mapboxgl-map svg {
+    max-width: none !important;
+}
+
+.mapboxgl-map *,
+.mapboxgl-map *::before,
+.mapboxgl-map *::after {
+    box-sizing: content-box;
+}
+
+.mapboxgl-ctrl-group,
+.mapboxgl-ctrl-group *,
+.mapboxgl-ctrl-attrib {
+    box-sizing: border-box !important;
+}
+
+.mapboxgl-control-container {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    pointer-events: none !important;
+}
+
+.mapboxgl-control-container > * {
+    pointer-events: auto !important;
+}
+
+.mapboxgl-marker {
+    position: absolute !important;
+}
+
+.mapboxgl-map canvas {
+    display: block !important;
+    max-width: none !important;
+    vertical-align: baseline !important;
+}
+

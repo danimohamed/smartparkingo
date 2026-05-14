@@ -1,0 +1,87 @@
+# ========================
+# General
+# ========================
+.scannerwork/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ========================
+# Spring Boot / Maven
+# ========================
+Backend/target/
+Backend/.mvn/wrapper/maven-wrapper.jar
+Backend/build_log.txt
+Backend/build_output.txt
+!Backend/mvnw
+!Backend/mvnw.cmd
+Backend/.env.local
+Backend/firebase-service-account.json
+
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ========================
+# Next.js / Node
+# ========================
+frontend/node_modules/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ========================
+# Flutter / Dart
+# ========================
+mobile/build/
+mobile/.dart_tool/
+mobile/.dart_tool*/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.pub-cache/
+mobile/.pub/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/key.properties
+mobile/ios/.symlinks/
+mobile/ios/Pods/
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Flutter/Flutter.podspec
+mobile/*.g.dart
+
+# ========================
+# Python / Vision worker
+# ========================
+owner-analytics/.venv/
+.venv-diag/
+owner-analytics/output/
+owner-analytics/sample-videos/*.mp4
+owner-analytics/*.pt
+
+# Firebase Admin SDK private keys (never commit)
+mobile/**/firebase-adminsdk-*.json
+mobile/**/*-firebase-adminsdk-*.json
+
+# ========================
+# Environment / Secrets
+# ========================
+*.env
+.env*
+application-local.properties
+application-prod.properties
+deploy-heroku.ps1
+.git_hist_*

@@ -1,0 +1,87 @@
+{
+    "@@locale": "fr",
+
+    "appName": "Smart Parking",
+    "@appName": { "description": "Application name" },
+
+    "commonSave": "Enregistrer",
+    "commonCancel": "Annuler",
+    "commonDelete": "Supprimer",
+    "commonEdit": "Modifier",
+    "commonSearch": "Rechercher",
+    "commonLoading": "Chargement…",
+    "commonSubmit": "Valider",
+    "commonBack": "Retour",
+    "commonClose": "Fermer",
+    "commonYes": "Oui",
+    "commonNo": "Non",
+    "commonRetry": "Réessayer",
+    "currencyMad": "MAD",
+
+    "errorUnexpected": "Une erreur inattendue est survenue",
+    "errorNetwork": "Erreur réseau, veuillez réessayer",
+    "errorUnauthorized": "Authentification requise",
+    "errorSessionExpired": "Session expirée. Veuillez vous reconnecter.",
+
+    "validationRequired": "Ce champ est obligatoire",
+    "validationEmail": "Adresse email invalide",
+    "validationPasswordMin": "Le mot de passe doit contenir au moins {min} caractères",
+    "@validationPasswordMin": {
+        "placeholders": { "min": { "type": "int" } }
+    },
+
+    "authLoginTitle": "Bon retour parmi nous",
+    "authLoginSubtitle": "Connectez-vous pour accéder à votre tableau de bord",
+    "authEmail": "Adresse email",
+    "authPassword": "Mot de passe",
+    "authForgotPassword": "Mot de passe oublié ?",
+    "authLoginSubmit": "Se connecter",
+    "authLoginSubmitting": "Connexion…",
+    "authNoAccount": "Pas encore de compte ?",
+    "authCreateAccount": "Créer un compte",
+    "authInvalidCredentials": "Email ou mot de passe invalide",
+    "authRegisterTitle": "Créez votre compte",
+    "authRegisterSubmit": "S'inscrire",
+    "authFullName": "Nom complet",
+    "authPhone": "Téléphone",
+    "authLogout": "Se déconnecter",
+
+    "navHome": "Accueil",
+    "navParkings": "Parkings",
+    "navMyReservations": "Mes réservations",
+    "navMyPayments": "Mes paiements",
+    "navMyWallet": "Mon portefeuille",
+    "navProfile": "Profil",
+    "navSettings": "Paramètres",
+    "navLanguage": "Langue",
+
+    "parkingTitle": "Parkings",
+    "parkingPricePerHour": "{price} MAD/h",
+    "@parkingPricePerHour": {
+        "placeholders": { "price": { "type": "String" } }
+    },
+    "parkingAvailableSlots": "{count} places disponibles",
+    "@parkingAvailableSlots": {
+        "placeholders": { "count": { "type": "int" } }
+    },
+
+    "reservationCreate": "Réserver",
+    "reservationCancel": "Annuler la réservation",
+    "reservationCreateSuccess": "Réservation créée",
+    "reservationCancelSuccess": "Réservation annulée",
+    "reservationStartTime": "Heure de début",
+    "reservationEndTime": "Heure de fin",
+    "reservationTotalPrice": "Prix total",
+
+    "walletBalance": "Solde",
+    "walletTopUp": "Recharger",
+    "walletPay": "Payer",
+    "walletInsufficientBalance": "Solde insuffisant",
+    "walletTopUpSuccess": "Recharge effectuée",
+    "walletPaySuccess": "Paiement effectué",
+
+    "languageFrench": "Français",
+    "languageEnglish": "English",
+    "settingsLanguageTitle": "Choisir la langue"
+}
+

@@ -1,0 +1,1592 @@
+{
+    "common": {
+        "appName": "Smart Parking",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "create": "Create",
+        "search": {
+            "placeholder": "Search...",
+            "noResultsFor": "No results for ",
+            "esc": "Esc",
+            "recommended": "Recommended"
+        },
+        "loading": "Loading…",
+        "submit": "Submit",
+        "submitting": "Submitting…",
+        "back": "Back",
+        "next": "Next",
+        "yes": "Yes",
+        "no": "No",
+        "confirm": "Confirm",
+        "close": "Close",
+        "actions": "Actions",
+        "status": "Status",
+        "currency": "MAD",
+        "or": "or",
+        "continueWithGoogle": "Continue with Google",
+        "userMenu": {
+            "myProfile": "My Profile",
+            "signOut": "Sign Out",
+            "anonymous": "Anonymous",
+            "noEmail": "No email available"
+        },
+        "headerNotifications": {
+            "title": "Notifications",
+            "tryAgainLater": "Please try again later"
+        },
+        "upload": {
+            "chooseOrDrop": "Choose a file or drag and drop here",
+            "dangerToast": "File upload failed"
+        }
+    },
+    "errors": {
+        "unexpected": "An unexpected error occurred",
+        "network": "Network error, please try again",
+        "unauthorized": "Authentication required",
+        "forbidden": "Access denied",
+        "notFound": "Resource not found",
+        "invalidCredentials": "Invalid credentials"
+    },
+    "validation": {
+        "required": "This field is required",
+        "email": "Invalid email address",
+        "minLength": "Must contain at least {min} characters",
+        "maxLength": "Must contain at most {max} characters",
+        "passwordMismatch": "Passwords do not match",
+        "fullNameMin": "Full name must be at least 2 characters",
+        "passwordMin": "Password must be at least 8 characters",
+        "confirmPasswordRequired": "Confirm Password Required",
+        "termsRequired": "You must accept the terms"
+    },
+    "auth": {
+        "signIn": {
+            "title": "Welcome back",
+            "subtitle": "Sign in to manage your parking spots",
+            "email": "Email address",
+            "emailPlaceholder": "your@email.com",
+            "password": "Password",
+            "passwordPlaceholder": "••••••••",
+            "rememberMe": "Remember me",
+            "forgotPassword": "Forgot password?",
+            "submit": "Sign in",
+            "submitting": "Signing in…",
+            "noAccount": "Don't have an account?",
+            "createAccount": "Create one",
+            "orContinueWith": "Or continue with",
+            "invalidCredentials": "Invalid email or password"
+        },
+        "signUp": {
+            "title": "Create your account",
+            "subtitle": "Start parking smarter in minutes.",
+            "fullName": "Full Name",
+            "fullNamePlaceholder": "John Doe",
+            "email": "Email Address",
+            "emailPlaceholder": "name@company.com",
+            "phone": "Phone",
+            "phonePlaceholder": "Phone (optional)",
+            "password": "Password",
+            "passwordPlaceholder": "At least 8 characters",
+            "confirm": "Confirm",
+            "confirmPlaceholder": "Repeat password",
+            "confirmPassword": "Confirm Password",
+            "iWantTo": "I want to",
+            "roleDriver": "Driver",
+            "roleOwner": "Parking Owner",
+            "roleGuard": "Guard",
+            "roleDriverFull": "Find & Reserve Parking",
+            "roleOwnerFull": "List My Parking Spaces",
+            "roleGuardFull": "Manage Parking as Guard",
+            "termsPrefix": "I agree to the",
+            "termsLink": "Terms of Service",
+            "and": "and",
+            "privacyLink": "Privacy Protocol",
+            "submit": "Create account",
+            "submitting": "Creating Account…",
+            "haveAccount": "Already have an account?",
+            "signInLink": "Sign in",
+            "showPassword": "Show password",
+            "hidePassword": "Hide password"
+        },
+        "forgotPassword": {
+            "title": "Forgot Password",
+            "subtitle": "Please enter your email to receive a verification code",
+            "email": "Email",
+            "emailPlaceholder": "Email",
+            "submit": "Submit",
+            "submitting": "Submitting…",
+            "checkEmailTitle": "Check your email",
+            "checkEmailSubtitle": "We have sent a password recovery to your email",
+            "continue": "Continue",
+            "backTo": "Back to",
+            "signInLink": "Sign in"
+        },
+        "resetPassword": {
+            "title": "Set new password",
+            "subtitle": "Your new password must be different from the previous one",
+            "doneTitle": "Reset done",
+            "doneSubtitle": "Your password has been successfully reset",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "submit": "Submit",
+            "submitting": "Submitting…",
+            "continue": "Continue",
+            "backTo": "Back to",
+            "signInLink": "Sign in"
+        },
+        "logout": "Sign out"
+    },
+    "nav": {
+        "home": "Dashboard",
+        "parkings": "Parkings",
+        "parkingMap": "Parking Map",
+        "myReservations": "My Reservations",
+        "messages": "Guard chats",
+        "myPayments": "My Payments",
+        "myWallet": "My Wallet",
+        "profile": "My Profile",
+        "admin": {
+            "title": "Administration",
+            "dashboard": "Admin Dashboard",
+            "users": "Users",
+            "reservations": "All Reservations",
+            "payments": "All Payments",
+            "parkings": "Manage Parkings",
+            "parkingSlots": "Manage Slots",
+            "wallets": "Wallets",
+            "ownerDashboard": "Owner Dashboard",
+            "guardDashboard": "Guard Dashboard"
+        },
+        "owner": {
+            "title": "Parking Owner",
+            "dashboard": "Owner Dashboard",
+            "parkings": "My Parkings",
+            "reservations": "Reservations",
+            "earnings": "Earnings",
+            "withdrawals": "Withdrawals"
+        },
+        "guard": {
+            "title": "Guard",
+            "dashboard": "Guard Dashboard",
+            "messages": "Guard chats"
+        }
+    },
+    "home": {
+        "greetingMorning": "Good morning",
+        "greetingAfternoon": "Good afternoon",
+        "greetingEvening": "Good evening",
+        "subtitle": "Here's what's happening with your parking today",
+        "stat": {
+            "activeReservations": "Active Reservations",
+            "activeReservationsDesc": "{count} total",
+            "walletBalance": "Wallet Balance",
+            "walletBalanceDesc": "Available funds",
+            "totalSpent": "Total Spent",
+            "totalSpentDesc": "{count} payment(s)",
+            "favoriteParking": "Favorite Parking",
+            "favoriteParkingDesc": "Most visited",
+            "availableParkings": "Available Parkings",
+            "availableParkingsDesc": "Near you"
+        },
+        "quick": {
+            "findParking": "Find Parking",
+            "viewMap": "View Map",
+            "topUpWallet": "Top Up Wallet",
+            "myReservations": "My Reservations"
+        },
+        "section": {
+            "wallet": "Wallet",
+            "balance": "Balance",
+            "noTransactions": "No transactions yet",
+            "topUp": "Top Up Wallet",
+            "reservations": "Reservations",
+            "reservationsSubtitle": "Weekly overview",
+            "spending": "Spending",
+            "spendingSubtitle": "Weekly breakdown (MAD)",
+            "upcoming": "Upcoming Reservations",
+            "upcomingEmpty": "No upcoming reservations",
+            "upcomingEmptyDesc": "Book a parking spot to get started.",
+            "findParkingCta": "Find Parking",
+            "recentPayments": "Recent Payments",
+            "availableParkings": "Available Parkings",
+            "slot": "Slot"
+        },
+        "insight": {
+            "weeklySpend": "You spent {amount} MAD this week",
+            "mostUsed": "Most used parking: {name}",
+            "bestTimeMorning": "You usually park in the morning",
+            "bestTimeAfternoon": "You usually park in the afternoon",
+            "bestTimeEvening": "You usually park in the evening"
+        },
+        "downloadInvoice": "Download Invoice",
+        "slots": "slots",
+        "perHour": "MAD/h"
+    },
+    "parking": {
+        "title": "Parkings",
+        "name": "Name",
+        "address": "Address",
+        "description": "Description",
+        "pricePerHour": "Price per hour",
+        "totalSlots": "Total slots",
+        "availableSlots": "Available slots",
+        "active": "Active",
+        "inactive": "Inactive",
+        "create": "New parking",
+        "edit": "Edit parking",
+        "delete": "Delete parking",
+        "deleteConfirm": "Are you sure you want to delete this parking?",
+        "createSuccess": "Parking created successfully",
+        "updateSuccess": "Parking updated successfully",
+        "deleteSuccess": "Parking deleted"
+    },
+    "reservation": {
+        "title": "Reservations",
+        "startTime": "Start time",
+        "endTime": "End time",
+        "totalPrice": "Total price",
+        "create": "Reserve",
+        "cancel": "Cancel reservation",
+        "cancelConfirm": "Are you sure you want to cancel this reservation?",
+        "createSuccess": "Reservation created",
+        "cancelSuccess": "Reservation cancelled",
+        "status": {
+            "active": "Active",
+            "completed": "Completed",
+            "cancelled": "Cancelled"
+        }
+    },
+    "wallet": {
+        "balance": "Balance",
+        "topUp": "Top up",
+        "pay": "Pay",
+        "transactions": "Transactions",
+        "amount": "Amount",
+        "topUpSuccess": "Top-up successful",
+        "paySuccess": "Payment successful",
+        "insufficientBalance": "Insufficient balance"
+    },
+    "dashboard": {
+        "welcome": "Welcome, {name}",
+        "stats": {
+            "totalParkings": "Parkings",
+            "totalSlots": "Slots",
+            "availableSlots": "Available slots",
+            "totalUsers": "Users",
+            "activeReservations": "Active reservations",
+            "todayReservations": "Today's reservations",
+            "totalRevenue": "Total revenue"
+        }
+    },
+    "myReservations": {
+        "title": "My Reservations",
+        "subtitle": "View and manage your parking reservations",
+        "newReservation": "New Reservation",
+        "stat": {
+            "total": "Total",
+            "active": "Active",
+            "completed": "Completed",
+            "cancelled": "Cancelled",
+            "noShow": "No Show"
+        },
+        "filter": {
+            "label": "Filters",
+            "status": "Status",
+            "sortBy": "Sort by",
+            "from": "From",
+            "to": "To",
+            "allStatuses": "All Statuses",
+            "statusActive": "Active",
+            "statusCompleted": "Completed",
+            "statusCancelled": "Cancelled",
+            "statusNoShow": "No Show",
+            "sortNewest": "Newest First",
+            "sortOldest": "Oldest First",
+            "sortPriceDesc": "Price: High → Low",
+            "sortPriceAsc": "Price: Low → High"
+        },
+        "card": {
+            "slot": "Slot",
+            "startsIn": "Starts in",
+            "endsIn": "Ends in",
+            "checkedIn": "Checked In",
+            "checkedOut": "Checked Out",
+            "showQr": "Show QR Code",
+            "downloadInvoice": "Download Invoice",
+            "cancel": "Cancel"
+        },
+        "table": {
+            "parking": "Parking",
+            "slot": "Slot",
+            "startTime": "Start Time",
+            "endTime": "End Time",
+            "price": "Price",
+            "status": "Status",
+            "payment": "Payment",
+            "countdown": "Countdown",
+            "actions": "Actions",
+            "starts": "Starts",
+            "ends": "Ends"
+        },
+        "empty": {
+            "title": "No reservations yet",
+            "description": "Start by browsing available parkings and making your first reservation.",
+            "titleFiltered": "No reservations match filters",
+            "descFiltered": "Try adjusting your filters to see more results.",
+            "browseParkings": "Browse Parkings",
+            "clearFilters": "Clear Filters"
+        },
+        "qr": {
+            "title": "Reservation QR Code",
+            "subtitle": "Show this to the guard at the entrance.",
+            "unavailable": "QR code unavailable",
+            "close": "Close"
+        },
+        "cancelDialog": {
+            "title": "Cancel Reservation?",
+            "description": "This action cannot be undone. Your parking slot will be released and any pending payment will be refunded.",
+            "keepBtn": "Keep Reservation",
+            "confirmBtn": "Yes, Cancel",
+            "cancellingBtn": "Cancelling..."
+        },
+        "toast": {
+            "cancelledTitle": "Reservation Cancelled",
+            "cancelledDesc": "Your reservation has been cancelled successfully.",
+            "cancelFailedTitle": "Cancel Failed",
+            "cancelFailedDefault": "Failed to cancel reservation"
+        }
+    },
+    "myPayments": {
+        "title": "My Payments",
+        "subtitle": "Track all your parking payment history",
+        "stat": {
+            "totalPaid": "Total Paid",
+            "completed": "Completed",
+            "pending": "Pending",
+            "refunded": "Refunded"
+        },
+        "filter": {
+            "label": "Filters",
+            "searchPlaceholder": "Search by ID...",
+            "allStatuses": "All Statuses",
+            "statusPending": "Pending",
+            "statusCompleted": "Completed",
+            "statusFailed": "Failed",
+            "statusRefunded": "Refunded",
+            "allMethods": "All Methods",
+            "methodWallet": "Wallet",
+            "methodCreditCard": "Credit Card",
+            "methodDebitCard": "Debit Card",
+            "methodPaypal": "PayPal",
+            "methodMobile": "Mobile Payment",
+            "methodCash": "Cash",
+            "from": "From",
+            "to": "To"
+        },
+        "table": {
+            "payment": "Payment",
+            "reservation": "Reservation",
+            "amount": "Amount",
+            "method": "Method",
+            "status": "Status",
+            "date": "Date"
+        },
+        "modal": {
+            "title": "Payment Details",
+            "invoice": "Invoice",
+            "reservation": "Reservation",
+            "method": "Method",
+            "methodNotSet": "Not set",
+            "date": "Date",
+            "downloadInvoice": "Download Invoice",
+            "viewReservation": "View Reservation"
+        },
+        "empty": {
+            "title": "No payments yet",
+            "description": "Your payment history will appear here after you make reservations.",
+            "titleFiltered": "No payments match filters",
+            "clearFilters": "Clear Filters"
+        },
+        "summary": {
+            "showing": "Showing {count} of {total} payments",
+            "total": "Total (filtered): {amount} MAD"
+        }
+    },
+    "myWallet": {
+        "title": "My Wallet",
+        "subtitle": "Manage your balance, top-ups, and payments",
+        "balance": {
+            "available": "Available Balance",
+            "label": "Smart Parking Wallet"
+        },
+        "stats": {
+            "totalIn": "Total In",
+            "totalOut": "Total Out"
+        },
+        "chart": {
+            "title": "This Week's Spending"
+        },
+        "tabs": {
+            "topUp": "Top Up",
+            "pay": "Pay Reservation",
+            "history": "History"
+        },
+        "topUp": {
+            "title": "Add Funds",
+            "customAmount": "Custom Amount (MAD)",
+            "enterAmount": "Enter amount...",
+            "holderPlaceholder": "Name",
+            "secureNote": "🔒 Your card details are processed securely",
+            "addBtn": "Add {amount} MAD to Wallet",
+            "processing": "Processing...",
+            "toast": {
+                "invalidAmountTitle": "Invalid Amount",
+                "invalidAmountMsg": "Minimum top-up is 10 MAD",
+                "invalidCardTitle": "Invalid Card",
+                "invalidCardMsg": "Please enter a valid card number (13-19 digits)",
+                "missingInfoTitle": "Missing Info",
+                "missingInfoMsg": "Please enter the card holder name",
+                "invalidExpiryTitle": "Invalid Expiry",
+                "invalidExpiryMsg": "Please enter expiry date in MM/YY format",
+                "invalidCvvTitle": "Invalid CVV",
+                "invalidCvvMsg": "Please enter a valid CVV (3-4 digits)",
+                "successTitle": "Top Up Successful",
+                "successMsg": "Added {amount} MAD to your wallet!",
+                "failedTitle": "Top Up Failed"
+            }
+        },
+        "history": {
+            "title": "Transaction History",
+            "weeklySpent": "Spent {amount} MAD this week",
+            "allTransactions": "All Transactions",
+            "topUps": "Top Ups",
+            "payments": "Payments",
+            "refunds": "Refunds",
+            "from": "From",
+            "to": "To",
+            "empty": {
+                "title": "No transactions yet",
+                "description": "Your transaction history will appear here.",
+                "titleFiltered": "No transactions match filters",
+                "descFiltered": "Try adjusting the filters.",
+                "clearFilters": "Clear Filters"
+            }
+        },
+        "txLabels": {
+            "TOP_UP": "Top Up",
+            "PAYMENT": "Payment",
+            "REFUND": "Refund"
+        },
+        "pay": {
+            "title": "Pay for Reservation",
+            "yourBalance": "Your balance: {amount} MAD",
+            "slot": "Slot",
+            "noActiveTitle": "No active reservations",
+            "noActiveDesc": "You don't have any active reservations to pay for.",
+            "insufficientBalance": "Insufficient balance. You need {amount} MAD more. Top up first.",
+            "payBtn": "Pay with Wallet",
+            "confirmTitle": "Confirm Payment",
+            "confirmDesc": "Pay {amount} MAD from your wallet?",
+            "remainingBalance": "Remaining balance: {amount} MAD",
+            "cancelBtn": "Cancel",
+            "confirmBtn": "Confirm Payment",
+            "processingBtn": "Processing...",
+            "toast": {
+                "successTitle": "Payment Successful",
+                "successMsg": "Reservation paid from wallet!",
+                "failedTitle": "Payment Failed"
+            }
+        }
+    },
+    "parkings": {
+        "list": {
+            "title": "Parkings",
+            "subtitle": "Find and reserve parking spots",
+            "searchPlaceholder": "Search parkings...",
+            "noResults": "No parkings found",
+            "smartParking": "Smart Parking",
+            "active": "Active",
+            "inactive": "Inactive",
+            "cap": "Cap {amount} MAD",
+            "slotsAvailable": "/ {total} slots available",
+            "perHour": "MAD/h",
+            "showMoreDetails": "Show more details",
+            "capacity": "Capacity",
+            "slots": "{count} slots",
+            "available": "{count} available",
+            "floors": "Floors",
+            "perFloor": "{count} / floor",
+            "rating": "Rating:",
+            "layout": "Layout:",
+            "underground": "Underground",
+            "aboveGround": "Above ground",
+            "rateThis": "Rate this parking",
+            "rateAria": "Rate {n} stars",
+            "openInMaps": "Open location in Maps",
+            "viewParking": "View parking"
+        },
+        "detail": {
+            "back": "Back to Parkings",
+            "notFound": "Parking not found",
+            "dailyCap": "Daily cap: {amount} MAD",
+            "reserveSlot": "🚗 Reserve Slot {slot}",
+            "perHour": "{price} MAD per hour",
+            "walletBalance": "Wallet Balance:",
+            "vehiclePlate": "Vehicle plate",
+            "vehiclePlateHint": "Prefilled from your profile when set. Required for guard plate scan.",
+            "startTime": "Start Time",
+            "endTime": "End Time",
+            "totalCost": "Total cost:",
+            "balanceAfter": "Balance after:",
+            "insufficient": "Insufficient balance.",
+            "topUpFirst": "Top up your wallet",
+            "first": " first.",
+            "cancel": "Cancel",
+            "reserving": "Reserving...",
+            "payAndReserve": "🚗 Pay & Reserve",
+            "qrTitle": "Your Reservation QR Code",
+            "qrSubtitle": "Show this QR code to the guard at the parking entrance.",
+            "qrUnavailable": "QR code unavailable. You can view it from My Reservations.",
+            "done": "Done",
+            "toast": {
+                "createdTitle": "Reservation Created!",
+                "createdMsg": "Slot {slot} reserved! {amount} MAD has been charged.",
+                "failedTitle": "Reservation Failed",
+                "failedDefault": "Failed to create reservation"
+            }
+        },
+        "digitalTwin": {
+            "loading3D": "Loading 3D Digital Twin…",
+            "loading": "Loading…",
+            "back": "Back to Parking",
+            "reserveSlot": "🚗 Reserve Slot {slot}",
+            "vehiclePlate": "Vehicle plate",
+            "vehiclePlateHint": "Prefilled from your profile when set.",
+            "startTime": "Start Time",
+            "endTime": "End Time",
+            "estimatedCost": "Estimated Cost",
+            "walletBalance": "Wallet Balance",
+            "insufficient": "Insufficient balance. Please top up your wallet first.",
+            "cancel": "Cancel",
+            "confirmReservation": "Confirm Reservation",
+            "toast": {
+                "createdTitle": "Reservation Created! 🎉",
+                "createdMsg": "Slot {slot} reserved! {amount} MAD has been charged.",
+                "failedTitle": "Reservation Failed",
+                "failedDefault": "Failed to create reservation"
+            }
+        }
+    },
+    "parkingMap": {
+        "filters": {
+            "allTypes": "All Types",
+            "covered": "Covered",
+            "outdoor": "Outdoor",
+            "ev": "EV",
+            "available": "Available",
+            "priceMax": "≤{price} MAD"
+        },
+        "detail": {
+            "addressUnavailable": "Address not available",
+            "distance": "Distance",
+            "available": "Available",
+            "pricePerHour": "Price/hr",
+            "navigate": "Navigate",
+            "reserve": "Reserve",
+            "full": "Full"
+        },
+        "list": {
+            "empty": "No parkings found in this area",
+            "nearest": "Nearest",
+            "parkingsNearbyOne": "{count} Parking Nearby",
+            "parkingsNearbyOther": "{count} Parkings Nearby",
+            "sortedByDistance": "Sorted by distance"
+        },
+        "modal": {
+            "title": "Reserve Parking",
+            "selectSlot": "Select a Parking Slot",
+            "noSlots": "No available slots",
+            "selectTime": "Select Time",
+            "startTime": "Start Time",
+            "endTime": "End Time",
+            "estimatedCost": "Estimated cost",
+            "plateLabel": "Vehicle plate",
+            "platePlaceholder": "e.g. 12345-A-23",
+            "plateHint": "Prefilled from your saved default when available. Guards use it for plate scan at the entrance.",
+            "reserving": "Reserving...",
+            "confirm": "Confirm Reservation"
+        },
+        "navigation": {
+            "calculating": "Calculating route...",
+            "centerLocation": "Center on my location",
+            "fallbackLocation": "Using default location • Allow GPS for your real position",
+            "arrived": "You have arrived!",
+            "continueOnRoute": "Continue on route",
+            "distance": "Distance",
+            "eta": "ETA",
+            "speed": "Speed",
+            "slots": "Slots",
+            "follow": "Follow",
+            "following": "Following",
+            "night": "🌙 Night",
+            "day": "☀️ Day",
+            "then": "Then: {instruction}",
+            "continue": "Continue",
+            "doneViewParking": "Done — View Parking",
+            "cancel": "Cancel Navigation"
+        },
+        "toast": {
+            "createdTitle": "Reservation Created",
+            "createdMsg": "Your parking slot has been reserved successfully!",
+            "failedTitle": "Reservation Failed",
+            "failedMsg": "Failed to create reservation. Please try again."
+        }
+    },
+    "profile": {
+        "completion": "Profile Completion",
+        "memberSince": "Member since {date}",
+        "error": {
+            "title": "Failed to load profile",
+            "subtitle": "Please try refreshing the page."
+        },
+        "info": {
+            "title": "Profile Information",
+            "editTitle": "Edit Profile",
+            "editBtn": "Edit",
+            "fullName": "Full Name",
+            "email": "Email",
+            "phone": "Phone",
+            "role": "Role",
+            "memberSince": "Member Since",
+            "emailHint": "Email cannot be changed",
+            "fullNamePlaceholder": "Enter your full name",
+            "phonePlaceholder": "Enter your phone number",
+            "saveBtn": "Save Changes",
+            "cancelBtn": "Cancel"
+        },
+        "security": {
+            "title": "Security",
+            "description": "Keep your account secure by using a strong password.",
+            "changePasswordBtn": "Change Password"
+        },
+        "vehicle": {
+            "title": "Default vehicle plate",
+            "description": "Used to prefill bookings and for guard plate scan. Updated automatically when you complete a reservation.",
+            "label": "License plate",
+            "placeholder": "e.g. 12345-A-23",
+            "saveBtn": "Save default",
+            "clearBtn": "Clear",
+            "toastSavedTitle": "Saved",
+            "toastSavedMsg": "Your default vehicle plate has been saved.",
+            "toastClearedTitle": "Cleared",
+            "toastClearedMsg": "Default plate removed.",
+            "toastFailedTitle": "Could not save",
+            "toastFailedDefault": "Invalid plate or request failed."
+        },
+        "accountInfo": {
+            "title": "Account Info",
+            "account": "Account",
+            "status": "Status",
+            "statusActive": "Active",
+            "joined": "Joined"
+        },
+        "passwordDialog": {
+            "title": "Change Password",
+            "subtitle": "Enter your current and new password",
+            "currentPassword": "Current Password",
+            "currentPasswordPlaceholder": "Enter current password",
+            "newPassword": "New Password",
+            "newPasswordPlaceholder": "Enter new password (min 6 characters)",
+            "confirmPassword": "Confirm New Password",
+            "confirmPasswordPlaceholder": "Confirm new password",
+            "updateBtn": "Update Password",
+            "cancelBtn": "Cancel"
+        },
+        "validation": {
+            "fullNameRequired": "Full name is required",
+            "fullNameMin": "Must be at least 2 characters",
+            "phoneMax": "Phone must not exceed 20 characters",
+            "currentPasswordRequired": "Current password is required",
+            "newPasswordRequired": "New password is required",
+            "newPasswordMin": "Must be at least 6 characters",
+            "confirmPasswordRequired": "Please confirm your new password",
+            "passwordMismatch": "Passwords do not match"
+        },
+        "toast": {
+            "updateSuccessTitle": "Profile Updated",
+            "updateSuccessMsg": "Your profile has been updated successfully.",
+            "updateFailedTitle": "Update Failed",
+            "updateFailedDefault": "Could not update profile.",
+            "passwordSuccessTitle": "Password Changed",
+            "passwordSuccessMsg": "Your password has been changed successfully.",
+            "passwordFailedTitle": "Password Change Failed",
+            "passwordFailedDefault": "Could not change password."
+        },
+        "roles": {
+            "USER": "User",
+            "ADMIN": "Admin",
+            "PARKING_OWNER": "Parking Owner",
+            "GUARD": "Guard"
+        }
+    },
+    "notifications": {
+        "saved": "Saved",
+        "deleted": "Deleted",
+        "error": "Error"
+    },
+    "parkingLot": {
+        "status": {
+            "AVAILABLE": "Available",
+            "OCCUPIED": "Occupied",
+            "RESERVED": "Reserved",
+            "MAINTENANCE": "Maintenance"
+        },
+        "statusShort": {
+            "ALL": "All",
+            "AVAILABLE": "Free",
+            "OCCUPIED": "Taken",
+            "RESERVED": "Reserved",
+            "MAINTENANCE": "Maint."
+        },
+        "type": {
+            "STANDARD": "Standard",
+            "VIP": "VIP",
+            "ELECTRIC": "Electric",
+            "HANDICAPPED": "Handicapped"
+        },
+        "typeFull": {
+            "STANDARD": "Standard Parking",
+            "VIP": "VIP Parking",
+            "ELECTRIC": "EV Charging",
+            "HANDICAPPED": "Accessible Parking"
+        },
+        "typeDescription": {
+            "STANDARD": "Regular parking spot suitable for most vehicles.",
+            "VIP": "Premium spot with extra space and prime location.",
+            "ELECTRIC": "Equipped with electric vehicle charging station.",
+            "HANDICAPPED": "Wider spot with ramp access for mobility needs."
+        },
+        "meta": {
+            "type": "Type",
+            "floor": "Floor",
+            "parking": "Parking",
+            "price": "Price",
+            "ground": "Ground",
+            "perHour": "MAD / hour",
+            "pricePerHour": "MAD/h"
+        },
+        "layout": {
+            "slotDetails": "Slot Details",
+            "reserveSlot": "🚗 Reserve this Slot",
+            "walkToSlot": "Walk to Slot",
+            "slotIsCurrently": "This slot is currently {status}",
+            "lotView": "Lot view",
+            "tour3d": "3D tour",
+            "parkingSlots": "Parking slots",
+            "tapToReserve": "Tap an available slot to reserve.",
+            "floorHint": " Use floor buttons or ↑↓ keys when not typing.",
+            "availableCount": "{count} available",
+            "onThisFloor": "{count} on this floor",
+            "floor": "Floor",
+            "emptyTitle": "No Parking Slots Available",
+            "emptyDesc": "This parking doesn't have any slots configured yet.",
+            "aisle": "Aisle",
+            "noSlotsFloor": "No slots on this floor",
+            "dragToPan": "Drag to pan · wheel to zoom",
+            "reset": "Reset",
+            "zoomIn": "Zoom in",
+            "zoomOut": "Zoom out",
+            "prevFloor": "Previous floor",
+            "nextFloor": "Next floor"
+        },
+        "camera": {
+            "orbit": "Orbit",
+            "topDown": "Top",
+            "firstPerson": "Walk"
+        },
+        "toggles": {
+            "labels": "Labels"
+        },
+        "connection": {
+            "live": "Live",
+            "polling": "15s",
+            "offline": "Off"
+        },
+        "stats": {
+            "total": "Total",
+            "free": "Free",
+            "taken": "Taken",
+            "reserved": "Rsvd",
+            "pricePerHour": "MAD/h"
+        }
+    },
+    "owner": {
+        "common": {
+            "error": "Error",
+            "validation": "Validation",
+            "operationFailed": "Operation failed",
+            "deleteFailed": "Delete failed",
+            "cancel": "Cancel",
+            "submit": "Submit",
+            "save": "Save",
+            "update": "Update",
+            "add": "Add",
+            "delete": "Delete",
+            "perHourMad": "MAD/hr",
+            "mad": "MAD"
+        },
+        "reservationStatus": {
+            "ACTIVE": "Active",
+            "COMPLETED": "Completed",
+            "CANCELLED": "Cancelled"
+        },
+        "dashboard": {
+            "title": "Owner Dashboard",
+            "subtitleOwner": "Overview of your parking business",
+            "subtitleAdmin": "Overview across all owners",
+            "stat": {
+                "totalParkings": "Total Parkings",
+                "totalSlots": "Total Slots",
+                "activeReservations": "Active Reservations",
+                "totalEarnings": "Total Earnings",
+                "thisMonth": "This Month",
+                "today": "Today"
+            },
+            "quick": {
+                "manageParkings": "Manage Parkings",
+                "viewReservations": "View Reservations",
+                "withdrawals": "Withdrawals"
+            },
+            "recent": {
+                "title": "Recent Reservations",
+                "empty": "No reservations yet",
+                "user": "User",
+                "parking": "Parking",
+                "slot": "Slot",
+                "slotShort": "Slot {number}",
+                "status": "Status",
+                "price": "Price"
+            }
+        },
+        "analytics": {
+            "title": "Lot preview (demo video)",
+            "helpText": "Counts come from the analytics worker (YOLO + ENTRY/EXIT line crossing), not from the browser video clock. Press Play to reset counters and start polling updates.",
+            "parking": "Parking",
+            "errorAccess": "Live preview is not configured for this parking, or you do not have access.",
+            "entered": "Entered (yellow line)",
+            "exited": "Exited (blue line)",
+            "carsInFrame": "Cars in frame",
+            "lotCapacity": "Lot capacity: {n}",
+            "lastUpdate": "Last update",
+            "waiting": "Waiting…",
+            "lastAiUpdate": "Last AI update: {date}",
+            "videoUnavailable": "Video unavailable.",
+            "pressPlay": "Press Play to start counting. The counters will reset to 0 and then update from the analytics worker.",
+            "waitingUpdatesPrefix": "Waiting for updates. Make sure ",
+            "waitingUpdatesSuffix": " is running.",
+            "noFreshUpdates": "No fresh updates yet. If you're playing the video but nothing changes, the worker is not posting live metrics."
+        },
+        "parkings": {
+            "title": "My Parkings",
+            "subtitle": "Create lots with floors and spots for the 3D digital twin, and assign guardians",
+            "addBtn": "Add Parking",
+            "empty": "No parkings yet. Create your first one!",
+            "active": "Active",
+            "inactive": "Inactive",
+            "totalSlots": "Total Slots:",
+            "available": "Available:",
+            "price": "Price:",
+            "guardians": "Guardians:",
+            "btn3DTwin": "3D Twin",
+            "btnSlots": "Slots",
+            "dialog": {
+                "titleEdit": "Edit Parking",
+                "titleNew": "New Parking",
+                "name": "Name",
+                "address": "Address",
+                "description": "Description",
+                "picture": "Picture",
+                "imagePlaceholder": "Image URL (or use Upload)",
+                "dragDrop": "Drag & drop an image here",
+                "orClickUpload": "or click \"Upload\" (stored as data URL)",
+                "uploadBtn": "Upload",
+                "noImage": "No image",
+                "imagePreviewAlt": "Preview",
+                "imageTip": "Tip: Upload stores the image as a data URL in DB. For production, prefer a hosted URL.",
+                "totalSlotsLabel": "Total Slots",
+                "pricePerHour": "Price/Hour (MAD)",
+                "layoutHelp": "Layout generates slots for the public 3D digital twin (max 10 floors, up to 50 spots per floor).",
+                "floors": "Floors",
+                "spotsPerFloor": "Spots / floor",
+                "computedTotal": "Total slots: {n}",
+                "underground": "Underground floors (-1, -2, …)",
+                "latitude": "Latitude",
+                "longitude": "Longitude",
+                "guardiansLabel": "Guardians",
+                "guardiansPlaceholder": "Select guard accounts…",
+                "saveGuardians": "Save guardians",
+                "updateBtn": "Update parking",
+                "createBtn": "Create"
+            },
+            "delete": {
+                "title": "Delete Parking",
+                "bodyPrefix": "Are you sure you want to delete ",
+                "bodySuffix": "? This action cannot be undone.",
+                "confirm": "Delete"
+            },
+            "validation": {
+                "nameRequired": "Name is required",
+                "addressRequired": "Address is required",
+                "pricePositive": "Price must be positive",
+                "totalSlotsMin": "Total slots must be at least 1",
+                "floorsRange": "Floors must be between 1 and 10",
+                "spotsRange": "Spots per floor must be between 1 and 50",
+                "spots3dCap": "At most 50 spots per floor for the 3D digital twin"
+            },
+            "toast": {
+                "created": "Parking created",
+                "updated": "Parking updated",
+                "deleted": "Parking deleted",
+                "guardiansUpdated": "Guardians updated",
+                "guardiansFailed": "Could not update guardians"
+            }
+        },
+        "slots": {
+            "breadcrumb": "My Parkings",
+            "parkingFallback": "Parking",
+            "title": "Slots Management",
+            "addBtn": "Add Slot",
+            "empty": "No slots yet. Add your first slot!",
+            "columns": {
+                "number": "Slot #",
+                "type": "Type",
+                "floor": "Floor",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "rowType": "Type:",
+            "rowFloor": "Floor:",
+            "types": {
+                "STANDARD": "Standard",
+                "HANDICAPPED": "Handicapped",
+                "ELECTRIC": "Electric",
+                "LARGE": "Large"
+            },
+            "dialog": {
+                "titleEdit": "Edit Slot",
+                "titleNew": "New Slot",
+                "slotNumber": "Slot Number",
+                "slotType": "Slot Type",
+                "floor": "Floor",
+                "addBtn": "Add",
+                "updateBtn": "Update"
+            },
+            "delete": {
+                "title": "Delete Slot",
+                "bodyPrefix": "Are you sure you want to delete slot ",
+                "bodySuffix": "?"
+            },
+            "validation": {
+                "slotNumberRequired": "Slot number is required"
+            },
+            "toast": {
+                "added": "Slot added",
+                "updated": "Slot updated",
+                "deleted": "Slot deleted"
+            }
+        },
+        "reservations": {
+            "title": "Reservations",
+            "subtitle": "All reservations made on your parkings",
+            "searchPlaceholder": "Search by user, parking, slot...",
+            "empty": "No reservations found",
+            "columns": {
+                "user": "User",
+                "parking": "Parking",
+                "slot": "Slot",
+                "start": "Start",
+                "end": "End",
+                "status": "Status",
+                "price": "Price"
+            }
+        },
+        "earnings": {
+            "title": "Earnings",
+            "subtitle": "Revenue from your parking business",
+            "requestWithdrawal": "Request Withdrawal",
+            "stat": {
+                "total": "Total Earnings",
+                "thisMonth": "This Month",
+                "today": "Today"
+            }
+        },
+        "withdrawals": {
+            "title": "Withdrawals",
+            "availableBalancePrefix": "Available balance: ",
+            "requestBtn": "Request Withdrawal",
+            "empty": "No withdrawal requests yet",
+            "columns": {
+                "ref": "Ref",
+                "amount": "Amount",
+                "status": "Status",
+                "date": "Date"
+            },
+            "status": {
+                "PENDING": "Pending",
+                "APPROVED": "Approved",
+                "REJECTED": "Rejected"
+            },
+            "dialog": {
+                "title": "Request Withdrawal",
+                "amountLabel": "Amount (MAD)",
+                "amountPlaceholder": "Amount"
+            },
+            "validation": {
+                "amountMin": "Amount must be at least 1 MAD"
+            },
+            "toast": {
+                "requested": "Withdrawal requested",
+                "failed": "Request failed"
+            }
+        }
+    },
+    "guard": {
+        "common": {
+            "cancel": "Cancel",
+            "close": "Close",
+            "refresh": "Refresh",
+            "error": "Error",
+            "parking": "Parking"
+        },
+        "status": {
+            "ACTIVE": "Active",
+            "COMPLETED": "Completed",
+            "CANCELLED": "Cancelled",
+            "NO_SHOW": "No-show"
+        },
+        "dashboard": {
+            "title": "Guard Dashboard",
+            "subtitle": "{parking} — {name}",
+            "selectedParkingFallback": "Selected parking",
+            "loadFailed": "Failed to load guard data",
+            "noParking": {
+                "selectParking": "Select a parking",
+                "noAssigned": "No Parking Assigned",
+                "chooseHelp": "Choose a parking to view its guard dashboard.",
+                "loadDashboard": "Load dashboard",
+                "askAdmin": "Ask an admin to assign a parking to your guard account."
+            },
+            "stat": {
+                "activeBookings": "Active Bookings",
+                "availableSlots": "Available Slots",
+                "occupiedSlots": "Occupied Slots",
+                "totalSlots": "Total Slots"
+            },
+            "btn": {
+                "scanEntry": "Scan entry",
+                "scanExit": "Scan exit",
+                "scanEntryTitle": "Scan entry (QR)",
+                "scanExitTitle": "Scan exit (QR)",
+                "manualCheckIn": "Manual check in",
+                "manualCheckOut": "Manual check out",
+                "occupySlot": "Occupy slot",
+                "freeSlot": "Free slot",
+                "scanPlate": "Scan license plate"
+            },
+            "qrToast": {
+                "valid": "Valid",
+                "rejected": "Rejected",
+                "ok": "OK",
+                "couldNotValidate": "Could not validate QR",
+                "requestFailed": "Request failed"
+            },
+            "bookings": {
+                "title": "Active Bookings Today",
+                "empty": "No active bookings for this parking",
+                "slotShort": "Slot {number}",
+                "checkIn": "Check In",
+                "checkOut": "Check Out",
+                "tagIn": "IN",
+                "tagOut": "OUT"
+            },
+            "checkInToast": {
+                "title": "Checked In",
+                "msg": "Reservation {id} checked in",
+                "failed": "Check-in failed"
+            },
+            "checkOutToast": {
+                "title": "Checked Out",
+                "msg": "Reservation {id} checked out",
+                "failed": "Check-out failed"
+            },
+            "manual": {
+                "titleIn": "Manual check in",
+                "titleOut": "Manual check out",
+                "hintIn": "Enter the reservation ID to validate entry.",
+                "hintOut": "Enter the reservation ID to validate exit.",
+                "idPlaceholder": "Reservation ID",
+                "valid": "Valid",
+                "rejected": "Rejected",
+                "validate": "Validate",
+                "validationFailed": "Validation failed"
+            },
+            "slot": {
+                "titleOccupy": "Manually Occupy Slot",
+                "titleFree": "Free Slot",
+                "hintOccupy": "Select a slot to mark as occupied.",
+                "hintFree": "Select a slot to free up.",
+                "noneAvailable": "No available slots",
+                "noneOccupied": "No occupied slots",
+                "occupyBtn": "Occupy",
+                "freeBtn": "Free",
+                "successOccupied": "Slot occupied successfully",
+                "successFreed": "Slot freed successfully",
+                "operationFailed": "Operation failed",
+                "successTitle": "Success"
+            }
+        },
+        "qr": {
+            "subtitle": "Point the camera at the customer's reservation QR code.",
+            "cameraUnavailable": "Camera unavailable. Paste the QR payload below.",
+            "orPaste": "Or paste QR payload",
+            "pastePlaceholder": "Paste the full scanned text…",
+            "submit": "Submit payload"
+        },
+        "plate": {
+            "title": "Scan vehicle plate",
+            "instructions": "Choose one option: scan using camera or upload a photo.",
+            "scanCamera": "Scan using camera",
+            "capturePhoto": "Capture photo",
+            "cancelCamera": "Close camera",
+            "uploadPhoto": "Upload a photo",
+            "reading": "Reading plate…",
+            "statusFallback": "Status",
+            "statusAppUser": "APP user",
+            "statusNonApp": "Non-app user",
+            "statusError": "Error",
+            "plateLabel": "Plate:",
+            "badgeApp": "✅ App user (match found)",
+            "badgeNon": "❌ Non-app user (no match)",
+            "requestFailed": "Request failed"
+        }
+    },
+    "messages": {
+        "title": "Messages",
+        "subtitle": "When you book a spot at a parking with guardians, a chat opens here with each assigned guard so you can coordinate arrival and access.",
+        "conversations": "Conversations",
+        "loading": "Loading…",
+        "loadingMessages": "Loading messages…",
+        "emptyTitle": "No chats yet",
+        "emptyDescription": "Book a parking that has guardians to start a conversation.",
+        "selectConversation": "Select a conversation",
+        "call": "Call",
+        "typeMessage": "Type a message…",
+        "toast": {
+            "loadChatsFailed": "Could not load chats",
+            "loadMessagesFailed": "Could not load messages",
+            "sendFailed": "Send failed",
+            "tryAgainLater": "Try again later"
+        }
+    },
+    "chatbot": {
+        "input": {
+            "clearChat": "Clear chat",
+            "speakOrType": "Speak or type…",
+            "askParking": "Ask about parking…",
+            "stopDictation": "Stop dictation",
+            "dictate": "Dictate (mic)"
+        },
+        "widget": {
+            "title": "ParkBot AI",
+            "subtitle": "Powered by Gemini · Marrakech",
+            "voiceLanguage": "Voice language",
+            "voiceOff": "Turn off voice mode",
+            "voiceOn": "Voice mode: speak & listen",
+            "voiceUnsupported": "Voice not supported in this browser",
+            "speaking": "Speaking…",
+            "listening": "Listening…",
+            "voiceReady": "Voice ready",
+            "processing": "⏳ Processing your request…",
+            "parkingOptionsFailed": "⚠️ Could not load parking options (connection or sign-in issue, or no parkings returned). Please try again, or pick a parking from the **Parking map** in the app.",
+            "genericError": "⚠️ Sorry, something went wrong. Please try again.",
+            "rateLimited": "⏳ The AI is getting too many requests right now. Please wait a minute and try again.",
+            "apiKeyInvalid": "🔑 The AI API key is invalid or expired. Please contact support.",
+            "emptyResponse": "🤔 The AI returned an empty response. Please try rephrasing your question.",
+            "badRequest": "❌ The request was malformed. Please try a shorter message."
+        },
+        "interactive": {
+            "parkingQuestion": "Which parking would you like to book?",
+            "selectTime": "Select reservation time",
+            "slotInfo": "{parking} · Slot {slot} (Floor {floor}, {type})",
+            "start": "Start",
+            "duration": "Duration",
+            "end": "End: {time}",
+            "continue": "Continue",
+            "parking": "Parking:",
+            "chat": "Chat",
+            "summary": "Booking summary",
+            "slot": "Slot:",
+            "time": "Time:",
+            "cost": "Cost:",
+            "wallet": "Wallet:",
+            "insufficient": "Insufficient balance — top up your wallet first.",
+            "cancel": "Cancel",
+            "confirm": "Confirm booking",
+            "thisParking": "this parking"
+        },
+        "quickPrompts": {
+            "bookParking": {
+                "label": "🚗 Book parking",
+                "text": "I want to reserve a parking spot"
+            },
+            "availableSpots": {
+                "label": "🅿️ Available spots",
+                "text": "Show available parkings with free slots"
+            },
+            "myReservations": {
+                "label": "📋 My reservations",
+                "text": "Show all my reservations"
+            },
+            "payReservation": {
+                "label": "💳 Pay reservation",
+                "text": "Pay for my latest reservation"
+            },
+            "walletBalance": {
+                "label": "💰 Wallet balance",
+                "text": "What is my wallet balance?"
+            },
+            "cancelBooking": {
+                "label": "❌ Cancel booking",
+                "text": "I want to cancel a reservation"
+            }
+        }
+    },
+    "admin": {
+        "common": {
+            "error": "Error",
+            "success": "Success",
+            "warning": "Warning",
+            "retry": "Retry",
+            "signIn": "Sign In",
+            "search": "Search...",
+            "export": "Export",
+            "exportCsv": "Export CSV",
+            "downloadInvoice": "Download Invoice",
+            "pageOf": "Page {page} of {total}",
+            "previous": "Previous",
+            "next": "Next",
+            "actions": "Actions",
+            "ref": "Ref",
+            "status": "Status",
+            "active": "Active",
+            "inactive": "Inactive",
+            "off": "Off",
+            "noData": "No data",
+            "viewAll": "View all",
+            "cancel": "Cancel",
+            "close": "Close",
+            "create": "Create",
+            "update": "Update",
+            "edit": "Edit",
+            "delete": "Delete",
+            "operationFailed": "Operation failed",
+            "failedLoadData": "Failed to load data"
+        },
+        "status": {
+            "ACTIVE": "Active",
+            "COMPLETED": "Completed",
+            "CANCELLED": "Cancelled",
+            "NO_SHOW": "No Show"
+        },
+        "paymentStatus": {
+            "PENDING": "Pending",
+            "COMPLETED": "Completed",
+            "FAILED": "Failed",
+            "REFUNDED": "Refunded"
+        },
+        "paymentMethods": {
+            "all": "All Methods",
+            "WALLET": "Wallet",
+            "CASH": "Cash",
+            "CREDIT_CARD": "Credit Card",
+            "DEBIT_CARD": "Debit Card",
+            "PAYPAL": "PayPal",
+            "MOBILE_PAYMENT": "Mobile Payment"
+        },
+        "filters": {
+            "allStatuses": "All Statuses",
+            "allParkings": "All Parkings",
+            "status": "Status",
+            "parking": "Parking",
+            "method": "Method"
+        },
+        "dashboard": {
+            "title": "Admin Dashboard",
+            "subtitle": "Real-time overview of your Smart Parking system",
+            "lastUpdated": "Last updated: {date}",
+            "loadFailedTitle": "Failed to load dashboard",
+            "backendRetry": "Please check your backend connection and try again.",
+            "sessionExpired": "Your session has expired. Please log in again.",
+            "accessDeniedDashboard": "Access denied. Admin privileges are required to view this dashboard.",
+            "accessDenied": "Access denied. Admin privileges are required.",
+            "loadFailed": "Failed to load dashboard data. Please check your backend connection.",
+            "unexpected": "An unexpected error occurred. Please try again.",
+            "kpi": {
+                "totalParkings": "Total Parkings",
+                "totalSlots": "Total Slots",
+                "available": "{count} available",
+                "totalUsers": "Total Users",
+                "usersSub": "{admins} admins ? {newUsers} new today",
+                "activeReservations": "Active Reservations",
+                "today": "{count} today",
+                "totalRevenue": "Total Revenue",
+                "revenueToday": "{amount} MAD today",
+                "occupancyRate": "Occupancy Rate",
+                "pendingPayments": "Pending Payments",
+                "completed": "{count} completed",
+                "walletBalances": "Wallet Balances"
+            },
+            "charts": {
+                "reservations": "Reservations",
+                "revenue": "Revenue (MAD)",
+                "payments": "Payments",
+                "available": "Available",
+                "occupied": "Occupied",
+                "reserved": "Reserved",
+                "maintenance": "Maintenance",
+                "active": "Active",
+                "completed": "Completed",
+                "cancelled": "Cancelled",
+                "count": "Count",
+                "total": "Total"
+            },
+            "sections": {
+                "slotOccupancy": "Slot Occupancy Overview",
+                "occupiedPercent": "{percent}% occupied",
+                "analytics": "Analytics",
+                "reservationsTrend": "Reservations Trend",
+                "dailyReservationCount": "Daily reservation count",
+                "noReservationData": "No reservation data yet",
+                "revenueTrend": "Revenue Trend",
+                "dailyRevenue": "Daily revenue in MAD",
+                "noRevenueData": "No revenue data yet",
+                "slotStatusDistribution": "Slot Status Distribution",
+                "reservationStatus": "Reservation Status",
+                "paymentMethods": "Payment Methods",
+                "noPaymentData": "No payment data",
+                "topOccupancy": "Top Parkings by Occupancy",
+                "topRevenue": "Top Parkings by Revenue",
+                "availableTotal": "{available} available / {total} total",
+                "noParkingData": "No parking data",
+                "reservationCount": "{count} reservations",
+                "recentReservations": "Recent Reservations",
+                "recentPayments": "Recent Payments",
+                "noReservations": "No reservations yet",
+                "noPayments": "No payments yet",
+                "paymentRef": "Payment PAY-{id}",
+                "reservationRef": "Reservation RES-{id}",
+                "quickActions": "Quick Actions"
+            },
+            "quick": {
+                "users": "Manage Users",
+                "parkings": "Manage Parkings",
+                "slots": "Manage Slots",
+                "reservations": "Reservations",
+                "payments": "Payments",
+                "wallets": "Wallets"
+            }
+        },
+        "users": {
+            "title": "Users Management",
+            "subtitle": "All registered users ({count})",
+            "searchPlaceholder": "Search by name, email...",
+            "empty": "No users found",
+            "role": "Role",
+            "assignedParking": "Assigned Parking",
+            "fullName": "Full Name",
+            "email": "Email",
+            "phone": "Phone",
+            "joined": "Joined",
+            "toastLoadFailed": "Failed to load users",
+            "roleUpdated": "Role updated to {role}",
+            "roleUpdateFailed": "Failed to update role",
+            "deleted": "User deleted",
+            "deleteFailed": "Failed to delete user"
+        },
+        "reservations": {
+            "title": "All Reservations",
+            "subtitle": "Manage all reservations ({count})",
+            "empty": "No reservations found",
+            "cancelTitle": "Cancel Reservation",
+            "cancelConfirm": "Cancel Reservation",
+            "cancelQuestion": "Cancel reservation {ref} for {user}?",
+            "cancelled": "Reservation cancelled",
+            "cancelFailed": "Failed to cancel reservation",
+            "user": "User",
+            "parking": "Parking",
+            "slot": "Slot",
+            "start": "Start",
+            "end": "End",
+            "price": "Price",
+            "checkInOut": "Check In/Out",
+            "checkedIn": "Checked In",
+            "notCheckedIn": "Not checked in",
+            "checkedOut": "Checked Out",
+            "notCheckedOut": "Not checked out"
+        },
+        "payments": {
+            "title": "All Payments",
+            "subtitle": "Manage all payments ({count})",
+            "revenue": "Revenue",
+            "empty": "No payments found",
+            "loadFailed": "Failed to load payments",
+            "paymentRef": "Payment Ref",
+            "reservationRef": "Reservation Ref",
+            "amount": "Amount",
+            "method": "Method",
+            "paidAt": "Paid At",
+            "reservation": "Reservation"
+        },
+        "wallets": {
+            "title": "Wallet Monitoring",
+            "subtitle": "{count} wallets",
+            "totalBalance": "Total Balance",
+            "empty": "No wallets found",
+            "loadFailed": "Failed to load wallets",
+            "transactions": "Transactions",
+            "history": "Transaction History",
+            "filterByType": "Filter by type",
+            "noTransactions": "No transactions found",
+            "loadTxFailed": "Failed to load transactions",
+            "walletRef": "Wallet Ref",
+            "user": "User",
+            "email": "Email",
+            "balance": "Balance",
+            "lastUpdated": "Last Updated",
+            "allTypes": "All Types",
+            "topUp": "Top Up",
+            "payment": "Payment",
+            "refund": "Refund",
+            "cardLast4": "Card ****{last4}"
+        },
+        "parkings": {
+            "title": "Manage Parkings",
+            "subtitle": "{count} parkings in total",
+            "add": "Add Parking",
+            "empty": "No parkings found",
+            "search": "Search parkings...",
+            "loadFailed": "Failed to load parkings",
+            "created": "Parking created",
+            "updated": "Parking updated",
+            "deleted": "Parking deleted",
+            "deleteFailed": "Failed to delete parking",
+            "nameRequired": "Name is required",
+            "addressRequired": "Address is required",
+            "mustBePositive": "Must be > 0"
+        },
+        "slots": {
+            "title": "Manage Parking Slots",
+            "subtitle": "Select a parking to manage its slots",
+            "selectParking": "Select a parking...",
+            "selectHint": "Select a parking above to view its slots",
+            "empty": "No slots found. Create some!",
+            "bulkCreate": "Bulk Create",
+            "add": "Add Slot",
+            "loadFailed": "Failed to load slots",
+            "slotRequired": "Slot number required",
+            "created": "Slot created",
+            "updated": "Slot updated",
+            "deleted": "Slot deleted",
+            "deleteFailed": "Failed to delete slot",
+            "bulkCreated": "{count} slots created",
+            "bulkFailed": "Bulk creation failed",
+            "legend": "Legend:",
+            "floor": "Floor {floor}",
+            "slotsCount": "{count} slots",
+            "unknown": "Unknown"
+        }
+    },
+    "landing": {
+        "nav": {
+            "downloadApp": "Download app",
+            "signIn": "Sign in",
+            "signUp": "Sign up",
+            "openMenu": "Open menu",
+            "closeMenu": "Close menu"
+        },
+        "hero": {
+            "title1": "Park smarter.",
+            "title2": "Move faster.",
+            "subtitle": "Discover, reserve, and pay for parking with secure real-time availability. Urban mobility, simplified for the modern driver.",
+            "ctaSignIn": "Sign in",
+            "ctaCreate": "Create account",
+            "imageAlt": "Modern parking area",
+            "badgeTitle": "Available now",
+            "badgeSubtitle": "Live lots near you • updated in real time"
+        },
+        "why": {
+            "title": "Why Parkingo?",
+            "subtitle": "Engineering calmer cities through clarity, speed, and trust.",
+            "clarityTitle": "Clarity",
+            "clarityBody": "No hidden fees. Transparent pricing for every lot, every time.",
+            "speedTitle": "Speed",
+            "speedBody": "Book in moments. Spend less time circling and more time where you need to be.",
+            "supportTitle": "Support",
+            "supportBody": "On-site guards and in-app chat when you need help at the lot."
+        },
+        "parkbot": {
+            "badge": "NEW: PARKBOT AI",
+            "title": "Meet your personal parking assistant.",
+            "intro": "Introducing <strong>ParkBot</strong> — find space through natural chat, get suggestions, and complete booking flows without hunting through menus.",
+            "demoUser": "Find me parking near the station for 2 hours",
+            "demoBot": "I found 3 lots with availability. Tap to compare price and distance.",
+            "chip1": "Best price",
+            "chip2": "Closest",
+            "chip3": "My reservations",
+            "feature1Title": "Multilingual support",
+            "feature1Body": "Chat in the language you prefer — ParkBot keeps the conversation clear and actionable.",
+            "feature2Title": "Seamless booking",
+            "feature2Body": "Describe what you need — ParkBot helps narrow lots, slots, and timing in one flow.",
+            "cta": "Try ParkBot in-app"
+        },
+        "bento": {
+            "title": "Built for drivers",
+            "findTitle": "Find nearby",
+            "findBody": "See lots on the map with live availability so you can choose what fits your route.",
+            "findAlt": "In-car navigation and maps to find parking",
+            "reserveTitle": "Reserve slot",
+            "reserveBody": "Book ahead. Your window is held until you arrive.",
+            "reserveAlt": "Quick check-in at the parking entrance",
+            "payTitle": "One-click pay",
+            "payBody": "Wallet checkout with clear hourly pricing — fewer taps from search to paid.",
+            "payAlt": "Choosing a payment method in the Parkingo app"
+        },
+        "audiences": {
+            "driversTitle": "Drivers",
+            "driversBody": "Find, book, and get to your spot with less stress — built for commuters and visitors.",
+            "driversAlt": "Driver in car",
+            "ownersTitle": "Lot owners",
+            "ownersBody": "List your parking, manage availability, and grow occupancy with tools made for operators.",
+            "ownersAlt": "Parking lot owner",
+            "guardsTitle": "Guards",
+            "guardsBody": "Coordinate on-site activity, chat with drivers, and stay aligned with lot teams.",
+            "guardsAlt": "Parking attendant"
+        },
+        "download": {
+            "title1": "Download the Parkingo app and",
+            "title2": "never struggle to park again",
+            "subtitle": "Real-time availability, reservations, and guard chat — in your pocket. Use the same account on web and mobile.",
+            "from": "Download from",
+            "appStoreAria": "Download on the App Store",
+            "playStoreAria": "Get it on Google Play",
+            "note": "Store links go here when the apps are published — for now, use the web app after sign in.",
+            "phoneAlt": "Parkingo app screen"
+        },
+        "footer": {
+            "terms": "Terms of service",
+            "privacy": "Privacy policy",
+            "rights": "© {year} Parkingo. All rights reserved."
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "@@locale": "en",
+
+    "appName": "Smart Parking",
+
+    "commonSave": "Save",
+    "commonCancel": "Cancel",
+    "commonDelete": "Delete",
+    "commonEdit": "Edit",
+    "commonSearch": "Search",
+    "commonLoading": "Loading…",
+    "commonSubmit": "Submit",
+    "commonBack": "Back",
+    "commonClose": "Close",
+    "commonYes": "Yes",
+    "commonNo": "No",
+    "commonRetry": "Retry",
+    "currencyMad": "MAD",
+
+    "errorUnexpected": "An unexpected error occurred",
+    "errorNetwork": "Network error, please try again",
+    "errorUnauthorized": "Authentication required",
+    "errorSessionExpired": "Session expired. Please sign in again.",
+
+    "validationRequired": "This field is required",
+    "validationEmail": "Invalid email address",
+    "validationPasswordMin": "Password must contain at least {min} characters",
+
+    "authLoginTitle": "Welcome back",
+    "authLoginSubtitle": "Sign in to access your dashboard",
+    "authEmail": "Email address",
+    "authPassword": "Password",
+    "authForgotPassword": "Forgot password?",
+    "authLoginSubmit": "Sign in",
+    "authLoginSubmitting": "Signing in…",
+    "authNoAccount": "Don't have an account?",
+    "authCreateAccount": "Create one",
+    "authInvalidCredentials": "Invalid email or password",
+    "authRegisterTitle": "Create your account",
+    "authRegisterSubmit": "Sign up",
+    "authFullName": "Full name",
+    "authPhone": "Phone",
+    "authLogout": "Sign out",
+
+    "navHome": "Home",
+    "navParkings": "Parkings",
+    "navMyReservations": "My Reservations",
+    "navMyPayments": "My Payments",
+    "navMyWallet": "My Wallet",
+    "navProfile": "Profile",
+    "navSettings": "Settings",
+    "navLanguage": "Language",
+
+    "parkingTitle": "Parkings",
+    "parkingPricePerHour": "{price} MAD/h",
+    "parkingAvailableSlots": "{count} slots available",
+
+    "reservationCreate": "Reserve",
+    "reservationCancel": "Cancel reservation",
+    "reservationCreateSuccess": "Reservation created",
+    "reservationCancelSuccess": "Reservation cancelled",
+    "reservationStartTime": "Start time",
+    "reservationEndTime": "End time",
+    "reservationTotalPrice": "Total price",
+
+    "walletBalance": "Balance",
+    "walletTopUp": "Top up",
+    "walletPay": "Pay",
+    "walletInsufficientBalance": "Insufficient balance",
+    "walletTopUpSuccess": "Top-up successful",
+    "walletPaySuccess": "Payment successful",
+
+    "languageFrench": "Français",
+    "languageEnglish": "English",
+    "settingsLanguageTitle": "Choose language"
+}
+

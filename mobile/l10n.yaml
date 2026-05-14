@@ -1,0 +1,12 @@
+# Flutter Localizations generator config.
+# Default language is French — `app_fr.arb` is the template (source of truth).
+# When a key is missing in `app_en.arb`, generated code falls back to the
+# template (French), matching the project-wide policy.
+arb-dir: lib/l10n
+template-arb-file: app_fr.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+output-dir: lib/generated/l10n
+
+

@@ -1,0 +1,42 @@
+import {
+    PiHouseLineDuotone,
+    PiCarDuotone,
+    PiCalendarCheckDuotone,
+    PiCreditCardDuotone,
+    PiShieldCheckDuotone,
+    PiChartBarDuotone,
+    PiUsersDuotone,
+    PiListChecksDuotone,
+    PiWalletDuotone,
+    PiMapPinDuotone,
+    PiStorefrontDuotone,
+    PiChartLineUpDuotone,
+    PiMoneyDuotone,
+    PiUserDuotone,
+    PiScanDuotone,
+    PiChatsCircleDuotone,
+} from 'react-icons/pi'
+
+const navigationIcon = {
+    home: <PiHouseLineDuotone />,
+    parkings: <PiCarDuotone />,
+    parkingMap: <PiMapPinDuotone />,
+    reservations: <PiCalendarCheckDuotone />,
+    payments: <PiCreditCardDuotone />,
+    wallet: <PiWalletDuotone />,
+    profile: <PiUserDuotone />,
+    admin: <PiShieldCheckDuotone />,
+    adminDashboard: <PiChartBarDuotone />,
+    users: <PiUsersDuotone />,
+    adminReservations: <PiListChecksDuotone />,
+    adminPayments: <PiWalletDuotone />,
+    ownerSection: <PiStorefrontDuotone />,
+    ownerDashboard: <PiChartBarDuotone />,
+    ownerEarnings: <PiChartLineUpDuotone />,
+    ownerWithdrawals: <PiMoneyDuotone />,
+    guard: <PiShieldCheckDuotone />,
+    guardDashboard: <PiScanDuotone />,
+    messages: <PiChatsCircleDuotone />,
+}
+
+export default navigationIcon
