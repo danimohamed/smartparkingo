@@ -18,7 +18,7 @@ SmartParkinGo is a multi-platform parking management solution that connects driv
 |--------|-------------|------|
 | `mobile/` | Driver mobile app — find & book parking spots | Flutter |
 | `frontend/` | Web dashboard for users and admins | React |
-| `Backend/` | Core API and business logic | Node.js |
+| `Backend/` | Core API and business logic | Spring Boot (Java) |
 | `owner-analytics/` | Analytics & video processing for parking owners | Python |
 | `guard-alpr/` | Automatic License Plate Recognition for guards | Python / ALPR |
 
@@ -42,8 +42,8 @@ cd mobile && flutter pub get && flutter run
 # Web frontend
 cd frontend && npm install && npm run dev
 
-# Backend API
-cd Backend && npm install && npm start
+# Backend API (Spring Boot)
+cd Backend && ./mvnw spring-boot:run
 
 # Analytics worker
 cd owner-analytics && pip install -r requirements.txt && python worker.py
