@@ -59,4 +59,4 @@ flutter run --dart-define=MAPBOX_TOKEN=pk.xxx --dart-define=GEMINI_API_KEY=xxx
 
 ## 📄 License
 
-This project is for educational purposes (EMSI - S8).
+This project is for academic purposes (EMSI - S8).
